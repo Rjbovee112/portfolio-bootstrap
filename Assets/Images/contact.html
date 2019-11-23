@@ -11,8 +11,9 @@
     <title>Document</title>
 </head>
 
-<body>
-    
+<body
+    background="C:\Users\EmRob\Developer\uofu\sandbox\02-CSS-Bootstrap\02-Homework\Assets\Images\bird-s-eye-view-of-ocean-during-daytime-2707756 (1).jpg">
+
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Robert J Bovee</a>
@@ -35,8 +36,26 @@
         </div>
     </nav>
 
-    <div class="container">
+    <!--start of midsection-->
 
+    <div class="container midsec">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Johnsmith@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Name</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="John Smith">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Message</label>
+                <textarea type="textarea" class="form-control" id="exampleInputPassword1"
+                    placeholder="Type Message Here"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </div>
 
     <!--footer-->
@@ -45,7 +64,6 @@
         <p>ⒸCopyright</p>
     </footer>
 
-    <!-- script -->
 
     <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
