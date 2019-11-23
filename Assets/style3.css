@@ -1,3 +1,12 @@
+.containerpro{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: white;
+    border: 8px solid red;
+}
+
 .midsec {
     margin-top: 100px;
     background-color: white;
@@ -29,11 +38,19 @@ footer {
     padding: 10px;
 }
 
-.containerpro{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 100px;
-    margin-left: 100px;
-    background-color: white;
-    border: 8px solid red;
+.project{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: 2px solid purple;
+}
+
+.img1{
+    background-image: url="/Images/wordguess.jpg";
+}
+
+.gallerycontent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
